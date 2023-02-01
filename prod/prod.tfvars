@@ -6,14 +6,18 @@
 #                PostgreSQL DB and a VPN in a VNet
 #
 # 2023/01/28
-# Multi-environment deployments: production PROD. vars file
+# Multi-environment deployments: development env. vars file
 # ##############################################################
-
-environment     = "prod"
+/* 
+environment     = "dev"
 location        = "northeurope"
-dfault_tags     = {
-    ctx-environment = "prod"
+default_tags     = {
+    ctx-environment = "dev"
     ctx-depoyed_by  = "terraform"
 }
 address_space   = "10.77.0.0/16"
-subnet          = "10.77.20.0/24"
+subnet          = "10.77.10.0/24" */
+
+location    = "northeurope"
+rg-prefix   = "rg-prod-"
+environment = "prod"
