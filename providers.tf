@@ -35,9 +35,9 @@ provider "azurerm" {
   }
 
   #"VSE-MPN-SEP22"
-  subscription_id   = "8fa9018b-616d-407d-8c95-5b793c7178ae"
-  tenant_id         = "35069d74-1489-4194-80c7-3a81385ead5b"
-  client_id         = "2bdcb9e1-48f7-47d8-8429-c611a89be18a"
-  client_secret     = "cut8Q~eVzFd5kcwg-1eZc-ZWV~zXG6ip3inGUau_"
+  subscription_id   = "fa9013c7178ae"
+  tenant_id         = "69d74-1489b"
+  client_id         = "-c611a89be18a"
+  client_secret     = "_"
   #client_name       = "terraform-deployments-2301"
 }
