@@ -9,6 +9,11 @@
 # Variables file
 # ##############################################################
 
+/* 
+variable "location" {
+  default     = "northeurope"
+  description = "Location of the deployment"
+}
 
 variable "resource_group_location" {
   default     = "northeurope"
@@ -19,7 +24,14 @@ variable "resource_group_name_prefix" {
   default     = "rg"
   description = "Prefix of the resource group name that's combined with a random ID so name is unique in your Azure subscription."
 }
-
-variable region {default = "northeurope"}
-variable network_name {default = "vnet-scrmchllng"}
-variable location {defaudefault = "northeurope"}
+ */
+variable region {
+  default = "northeurope"
+}
+variable location {
+  default = "northeurope"
+}
+variable "rg-prefix" {
+  default = "rg-default"
+  description = "Prefix identifying the resource group and the environment"
+}

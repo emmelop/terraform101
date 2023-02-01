@@ -34,9 +34,10 @@ provider "azurerm" {
     }
   }
 
-  subscription_id   = "230046ae-8ad8-4872-a60f-6ea22a6f6fdd"
-  tenant_id         = "fd0b1f6e-75e6-4d1a-8d05-dabf4670f6fd"
-  client_id         = "627c6815-2de3-4050-954d-f98fd6e5a4e1"
-  client_secret     = "Iqt8Q~tQERFlJDLUelH1vqHaqPAqqelJNF8olbsl"
-  #client_name       = "svcprincipal-terraform"
+  #"VSE-MPN-SEP22"
+  subscription_id   = "8fa9018b-616d-407d-8c95-5b793c7178ae"
+  tenant_id         = "35069d74-1489-4194-80c7-3a81385ead5b"
+  client_id         = "2bdcb9e1-48f7-47d8-8429-c611a89be18a"
+  client_secret     = "cut8Q~eVzFd5kcwg-1eZc-ZWV~zXG6ip3inGUau_"
+  #client_name       = "terraform-deployments-2301"
 }
